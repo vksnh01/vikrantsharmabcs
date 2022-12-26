@@ -1,0 +1,25 @@
+.practical-main-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center; 
+    align-items: stretch;
+}
+.practical-head-div{
+    display: grid;
+    /* grid-template-columns: 4vw 13vw 12vw 10vw 18vw; */
+    grid-template-columns: 4vw 7vw 14vw 8vw 16vw;
+    font-weight: bold;
+    text-align: center;
+    background: darkgray;
+    color: darkslategray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 0px 4px 2px grey;
+}
+.practical-data-div{
+    display: grid;
+    grid-template-columns:5vw 10vw 11vw 13vw 10vw;
+    text-align: start;
+}
